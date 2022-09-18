@@ -12,3 +12,8 @@ docker 명령어
 
 - `docker build -f Dockerfile.dev --tag hello-solana .`
 - `docker run -v $(pwd):/usr/src/app --rm -it hello-solana /bin/bash`
+
+- 솔라나 클리가 우분투 22.04에서 설치가 안됌
+- 딱히 뭐 먹히는 것도 없고, 압축파일 받아서 로컬로 설치하려다가, 시간상 그냥 본체에 설치
+- `sh -c "$(curl -sSfL https://release.solana.com/v1.14.2/install)"`
+- https://docs.solana.com/cli/install-solana-cli-tools
