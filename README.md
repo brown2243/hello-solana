@@ -10,5 +10,5 @@
 
 docker 명령어
 
-- `docker build --tag hello-solana .`
+- `docker build -f Dockerfile.dev --tag hello-solana .`
 - `docker run -v $(pwd):/usr/src/app --rm -it hello-solana /bin/bash`
